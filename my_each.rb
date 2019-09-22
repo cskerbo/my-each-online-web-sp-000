@@ -1,5 +1,5 @@
 def my_each(array)
-  array.each do |word|
+  my_each(array) do |word|
     puts word
   end
 end
