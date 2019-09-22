@@ -7,9 +7,9 @@ def my_each(array)
       word += 1
     end
 
-    word(foo)
+    word(array)
 
   else
-    array(foo)
+    array
   end
 end
