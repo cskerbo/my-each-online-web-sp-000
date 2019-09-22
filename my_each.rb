@@ -1,5 +1,7 @@
 def my_each(array)
-  my_each(array) do |word|
+  word = 0
+  while word < array.length
+    my_each(array) do |word|
     puts word
   end
 end
