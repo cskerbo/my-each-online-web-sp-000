@@ -10,6 +10,6 @@ def my_each(array)
     word(foo)
 
   else
-    array
+    array(foo)
   end
 end
