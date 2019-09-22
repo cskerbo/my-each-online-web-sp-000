@@ -5,4 +5,7 @@ def my_each(array)
     word += 1
   end
   word
+  else
+    puts my_each(array)
+  end
 end
